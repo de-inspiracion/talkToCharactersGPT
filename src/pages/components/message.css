@@ -1,0 +1,18 @@
+.mensaje-der {
+  display: flex;
+  justify-content: end;
+}
+
+.mensaje-izq {
+  display: flex;
+  justify-content: start;
+} 
+.message-content {
+  margin-top: 10px;
+  margin: 10px;
+  min-height: 50px;
+  width: 80%;
+  padding: 10px;
+  background-color: aliceblue;
+  border-radius: 1em;
+}
