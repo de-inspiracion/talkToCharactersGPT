@@ -171,7 +171,7 @@ export const Home = () => {
         <Col flex={2}>
           <TextArea
             rows={4}
-            placeholder="Ingresa un texto ejemplo :Que es el amor?"
+            placeholder="Ingresa un texto ejemplo : hola que tal"
             maxLength={50}
             onChange={(value: any) => setTextConversation(value.target.value)}
             onKeyDown={handleKeyDown}
