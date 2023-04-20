@@ -84,7 +84,7 @@ export const Home = () => {
       image:
         "https://image.lexica.art/full_jpg/707326c6-10b7-4528-8f61-b21654832268",
       character: CharacterEnum.philosofer,
-      name: "Folosofo",
+      name: "Filosofo",
     },
     {
       image: flaite,
