@@ -4,11 +4,11 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 
 import flaite from "../assets/chilean.png";
-import marley from "../assets/bob-marley.png";
 import homero from "../assets/homero.png";
 import negative from "../assets/negative.png";
 import positive from "../assets/positive.png";
 import snoop from "../assets/snoop.png";
+import ironic from "../assets/ironic.png";
 
 import { post } from "../http/http";
 import { CharacterEnum } from "./interfaces/character.enum";
@@ -115,6 +115,11 @@ export const Home = () => {
       image: homero,
       character: CharacterEnum.homero,
       name: "Homero",
+    },
+    {
+      image: ironic,
+      character: CharacterEnum.ironic,
+      name: "Ironico",
     },
   ];
   return (

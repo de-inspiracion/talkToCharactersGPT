@@ -5,5 +5,6 @@ export enum CharacterEnum {
   marley = 'marley',
   negative = 'negative',
   positive = 'positive',
-  homero = 'homero'
+  homero = 'homero',
+  ironic = 'ironic'
 }
